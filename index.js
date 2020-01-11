@@ -152,7 +152,14 @@ function start() {
 
     START.style.display = 'none'
 
+<<<<<<< HEAD
     gameInterval = setInterval(function () {
         createRock(Math.floor(Math.random() * (GAME_WIDTH - 20)))
     }, 1000)
 }
+=======
+  gameInterval = setInterval(function() {
+    createRock(Math.floor(Math.random() *  (GAME_WIDTH - 20)))
+  }, 1000)
+}
+>>>>>>> 5142f509d64bcb854cf7bc89bd34770f71e77b54
